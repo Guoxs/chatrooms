@@ -1,0 +1,105 @@
+/* css reset begin */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+  padding: 0;
+  margin: 0;
+}
+img {
+  border: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+input, button, textarea, select {
+  *font-size: 100%;
+}
+input {
+  background: transparent;
+  border: none;
+}
+input[type=submit] {
+  cursor: pointer;
+}
+body {
+  font: 14px/1.5 Helvetica, Arial, sans-serif;
+}
+ol, ul, li {
+  list-style: none;
+}
+button {
+  border: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+:link,
+:visited {
+  text-decoration: none;
+}
+:focus {
+  outline: 0;
+}
+pre {
+  font-family: "Lucida Console",Consolas,"Courier New",Tahoma;
+  color: #666;
+  text-indent: 0;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
+}
+/* css reset end */
+
+body{
+  padding:50px;
+  font:14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a{
+  color:#00b7ff;
+}
+
+#content{
+  width:800px;
+  margin:0 auto;
+}
+
+#room{
+  background-color: #ddd;
+  margin-bottom: 1em;
+}
+
+#messages{
+  width:690px;
+  height:300px;
+  overflow:hidden;
+  background-color: #eee;
+  margin-bottom: 1em;
+  margin-right: 10px;
+}
+
+#room-list{
+  float:right;
+  width:100px;
+  height:300px;
+  overflow:hidden;
+}
+
+#room-list div{
+  border-bottom: 1px solid #eee;
+}
+
+#room-list div:hover{
+  background-color:#ddd;
+}
+
+#send-message{
+  width:700px;
+  margin-bottom:1em;
+  margin-right:1em;
+}
+
+#help{
+  font:10px "Lucida Grande", Helvetica, Arial, sans-serif;
